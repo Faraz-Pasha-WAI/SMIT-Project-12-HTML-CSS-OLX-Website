@@ -1,0 +1,1019 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+nav{
+    width: 100%;
+    height: 120px;
+    border-bottom: 1px solid rgb(136, 136, 136);
+}
+
+
+.nav1stHeader{
+    display: flex;
+    width: 95%;
+    height: 40px;
+   
+    margin: 0 auto;
+    margin-top: 20px;
+    align-items: center;
+    gap: 50px;
+  
+}
+
+.navLogoImage{
+    color: #002F34;
+}
+
+.motors, .property{
+    display: flex;
+    gap:15px;
+    align-items: center;
+    font-family: calibri;
+    font-size: 18px;
+    font-weight: bold;
+    color: #002F34;
+
+}
+.motors img, .property img {
+    color: #002F34;
+    background: #adadad;
+    background: linear-gradient(182deg,rgba(173, 173, 173, 1) 0%, rgba(228, 237, 231, 1) 100%, rgba(232, 225, 225, 1) 100%);
+    border-radius: 50%;
+    padding:7px;
+}
+
+.motors:hover, .property:hover{
+    color: rgb(95, 95, 252);
+    cursor: pointer;
+}
+
+.nav2ndHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 75px;
+
+    align-items: center;
+    margin: 0 auto;
+}
+
+.selectCountry{
+    display: flex;
+    align-items: center;   
+    width: 300px;
+    height:48px;
+    border: 1px solid black;
+    padding: 5px;
+    gap: 7px;
+    border-radius: 5px;
+}
+
+.selectCountry input{
+    width: 228px;
+    height: 46px;
+    border: none;
+    font-size: 16px;
+}
+
+.selectCountry input:focus{
+    border: 1px solid red;
+}
+
+.searchField{
+    display: flex;
+    align-items: center;  
+}
+.searchField input{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px; 
+    width: 716px;
+    height: 48px;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 10px;   
+}
+
+.sellButtonSetting{
+   display: flex;
+  padding: 10px 25px ;
+   border: 2px solid blue;
+   border-radius: 20px;
+   gap: 5px;   
+   cursor: pointer;
+}
+
+.searchField div{
+    border: 1px solid black;
+    width:47px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+    
+}
+.fa-solid{
+    color: white;
+    font-size: 25px;
+}
+
+.navPara p{
+    color: #002F34;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.navPara p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-List{
+    padding-left: 35px;
+    margin-top: 20px;
+}
+
+.nav-List ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+   align-items: center;
+}
+.nav-List ul li a{
+    text-decoration: none;
+    color: #002F34;
+    font-family: calibri;
+    font-size: 17px;
+}
+
+.nav-List ul li a:hover{
+    color: rgb(104, 104, 189);
+}
+
+.mainSection{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.section2Categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  
+    margin-top: 20px;
+    gap: 52px 41px;              
+    padding: 30px 0;
+}
+
+.section2Cards{
+    width: 106px;
+    height: 116px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    gap: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.section2Cards p {
+    font-family: calibri;
+    color: #002F34;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mobilePhoneCards {
+    cursor: pointer;
+}
+.mobilePhone h1{
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.imageCard1{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/mobile\ 1.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.imageCard2{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/mobile\ 2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.imageCard3{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/mobile\ 3.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.imageCard4{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/mobile\ 4.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.mobilePhoneCards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.cardSectionHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardSectionHeading a {
+    text-decoration: none;
+    color: rgb(86, 86, 216);
+    font-weight: bold;
+    font-size: 18px;
+    font-family: calibri;
+}
+
+.mpCard{
+    border: 1px solid rgb(201, 201, 201);
+    width: 23.5%;
+    height: 60%;
+    border-radius: 5px;
+}
+.mpCard a{
+    text-decoration: none;
+}
+.cardContent{
+    padding: 20px;
+    font-family: calibri;
+}
+.priceWishList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priceWishList p{
+    font-weight: bold;
+    font-size: 22px;
+    color: #002F34;
+}
+
+.cardTitle{
+    margin-top: 10px;
+    width: 260px;
+    height: 40px;
+    color: #002F34;
+    font-size: 20px;
+}
+
+.cardAddress{
+    margin-top: 20px;
+    color: #406367;
+    font-size: 17px;
+}
+
+.classDays{
+    margin-top: 5px;
+    color:#406367;
+    font-size: 14px;
+}
+
+.cars{
+    margin-top: 30px;
+}
+
+.cars h1{
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;    
+}
+
+.carImage1{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/car\ 1.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.carImage2{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/car\ 2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.carImage3{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/car\ 3.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+.carImage4{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/car\ 4.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bikeMotorcycle{
+    margin-top: 30px;
+}
+
+.bikeMotorcycle h1{
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;    
+}
+
+.bikeImage1{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/bike\ 1.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+.bikeImage2{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/bike\ 2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bikeImage3{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/bike\ 3.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.bikeImage4{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/bike\ 4.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.houses{
+    margin-top: 30px;
+}
+
+.houses h1{
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;    
+}
+
+.houseImage1{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/house\ 1.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+.houseImage2{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/house\ 2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.houseImage3{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/house\ 3.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.houseImage4{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/house\ 4.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+.plots{
+    margin-top: 30px;
+}
+
+.plots h1{
+    font-family: calibri;
+    font-size: 26px;
+    font-weight: bold;    
+}
+
+.plotImage1{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/plot.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+.plotImage2{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/plot\ 2.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.plotImage3{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/plot\ 3.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.plotImage4{
+    width: 300px;
+    height: 150px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-image: url(./assets/plot\ 4.webp);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+.lastSection{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(247, 248,249);
+    width: 100%;
+    height: 200px;
+   
+}
+
+.lastSectionImage1{
+    height: 200px;
+    width: 435px;
+    background-image: url(./assets/asset\ 18.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: contain;
+}
+.lastSectionText{
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+}
+
+.lastSectionText h1{
+    font-family: calibri;
+    font-size: 36px;    
+    color: #002F34;
+}
+
+.lastSectionText p{
+    font-family: calibri;
+    font-size: 22px;
+    color: #002F34;
+    letter-spacing: -0.7px;
+}
+
+.lastSectonLine{
+    width: 2px;
+    height: 136px;
+    background-color: #00090A;
+}
+
+.lastSectionHeading{
+    font-weight: bold;
+    font-family: calibri;
+    font-size: 16px;
+    
+}
+.appComtainer{
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+
+.appLinks{
+    display: flex;
+    align-items: center;
+    gap :5px;
+
+}
+
+.footer1{
+    background-color: #EBEEEF;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-top: 1px solid #c7c7c7;
+    height: 200px;
+}
+
+.footerList h3{
+    font-family: calibri;
+    font-weight:700;
+    color: #002F34;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.footerList ul{
+    list-style-type: none;
+    margin-top: 12px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.footerList ul li a{
+    text-decoration: none;
+    color: #23727a;
+}
+.footerList ul li a:hover{
+    color:#002F34;
+}
+.footerListLinkIcon{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.appLinks2{
+    display: flex;
+    align-items: center;
+    gap :5px;
+    margin-top: 30px;
+}
+
+.footer2{
+    background-color: #002F34;
+    height: 50px;
+    width: 100%;
+}
+
+.footer2 p{
+    color: #FFFFFF;
+    font-family: calibri;
+    font-size: 14px;
+    text-align: end;
+    padding: 15px 40px 0 0;
+}
+
+
+@media screen and (max-width:480px) {
+
+    
+    .motors, .property {
+        gap: 6px;
+        font-size: 18px;
+    }
+    .nav1stHeader img{
+        width: 42px;
+        height: 42px;
+    }
+    
+    .nav1stHeader{
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+    .nav2ndHeader{
+        width: 95%;
+        height: auto;
+        display: flex;        
+    }
+    .selectCountry{
+        display: none
+    }  
+   
+    .searchField input{      
+        width: 410px;
+        height: 38px;       
+        font-size: 14px;
+        padding: 10px;   
+    }
+    .searchField div{
+        width:38px;
+        height: 38px;            
+    }
+    .fa-solid{
+        color: white;
+        font-size: 20px;
+    }
+    .navPara {
+        display: none;
+    }
+    .sellButton{
+       display: none;         
+     }
+     .nav-List{
+        display: none;
+     }
+     .section1Banner{
+        margin-top: -30px;
+     }
+     .section1Banner img{
+        width: 100%;
+        height: 100px;
+     }
+     .section2Cards p{
+        font-size: 11px;
+     }
+     .section2Cards{
+        width: 40px;
+        height: 90px;
+     }
+     .section2Cards img{
+        width: 40px;
+        height: 40px;
+       
+     }
+     .section2Categories{
+        gap: 22px 28px;
+        padding: 0px;
+        max-width: 100%;
+     }
+     .mobilePhone, .cars , .bikeMotorcycle ,.houses , .plots {
+        max-width: 450px;
+        /* border: 1px solid black; */
+     }
+     .mpCard{
+        width: 220px;
+        height: auto;
+        gap: 3px;
+     }
+     .mobilePhoneCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 5px;
+        
+     }
+     .cardSectionHeading h1{
+        font-size: 20px;
+     }
+     .cardSectionHeading a{
+        font-size: 14px;
+     }
+     .imageCard1,  .imageCard2,  .imageCard3, .imageCard4, 
+     .carImage1, .carImage2, .carImage3, .carImage4,
+     .bikeImage1, .bikeImage2, .bikeImage3, .bikeImage4,
+     .houseImage1, .houseImage2, .houseImage3, .houseImage4,
+     .plotImage1, .plotImage2, .plotImage3, .plotImage4
+     {
+        width: 220px;
+        height: 110px;
+     }
+     .priceWishList p{
+        font-size: 14px;
+    }
+    .priceWishList img{
+        width: 12px;
+        height: 12px;
+    }
+    .cardTitle{
+        font-size: 13px;
+        margin-top: 3px;
+        width: auto;
+        height: auto;
+    }
+    .cardAddress{
+        font-size: 12px;
+        margin-top: 1px;
+    }
+    .classDays{
+        margin-top: 2px;
+        color:#406367;
+        font-size: 12px;
+    }
+    .cardContent{
+        padding: 5px;
+    }
+
+    .lastSection{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+       
+    }
+    .lastSectionImage1{
+        height: 150px;
+        width: 335px;
+    }
+    .lastSectonLine{
+        display: none;
+    }
+    .appComtainer{
+        width: 380px;
+        height: 120px;
+        /* border: 1px solid black;       */
+        gap: 0px;
+    }
+    .appLinks div a img{
+        width: 110px;
+        height: 90px;
+    }
+    .lastSectionText{
+        width: 380px;
+        height: 170px;
+        padding: 20px;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-between  ;
+        flex-wrap: wrap;
+        padding: 20px 40px;
+        border-top: 1px solid #c7c7c7;
+        height: auto;
+        gap: 20px;
+    }
+    .appLinks2{
+        display: none;
+    }
+    .footer2{
+        background-color: #002F34;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:1024px){
+    .motors, .property {
+        gap: 6px;
+        font-size: 22px;
+    }
+    .nav1stHeader img{
+        width: 42px;
+        height: 42px;
+    }
+    
+    .nav1stHeader{
+        gap: 20px;
+        margin-bottom: 10px;
+    }
+    .nav2ndHeader{
+        width: 95%;
+        height: auto;
+        display: flex;        
+    }
+    .selectCountry{
+        display: none
+    }  
+   
+    .searchField input{      
+        width: 410px;
+        height: 38px;       
+        font-size: 14px;
+        padding: 10px;   
+    }
+    .searchField div{
+        width:38px;
+        height: 38px;            
+    }
+    .fa-solid{
+        color: white;
+        font-size: 20px;
+    }
+    .navPara {
+        display: none;
+    }
+    .sellButton{
+       display: none;         
+     }
+     .nav-List{
+        display: none;
+     }
+     .section1Banner{
+        margin-top: -30px;
+     }
+     .section1Banner img{
+        width: 100%;
+        height: 100px;
+     }
+     .section2Cards p{
+        font-size: 13px;
+     }
+     .section2Cards{
+        width: 40px;
+        height: 90px;
+     }
+     .section2Cards img{
+        width: 40px;
+        height: 40px;
+       
+     }
+     .section2Categories{
+        gap: 22px 28px;
+        padding: 0px;
+        max-width: 100%;
+     }
+     .mobilePhone, .cars , .bikeMotorcycle ,.houses , .plots {
+        max-width: 100%;
+        /* border: 1px solid black; */
+     }
+     .mpCard{
+        width: 320px;
+        height: auto;
+        gap: 5px;
+     }
+     .mobilePhoneCards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+        
+     }
+     .cardSectionHeading h1{
+        font-size: 24px;
+     }
+     .cardSectionHeading a{
+        font-size: 18px;
+     }
+     .imageCard1,  .imageCard2,  .imageCard3, .imageCard4, 
+     .carImage1, .carImage2, .carImage3, .carImage4,
+     .bikeImage1, .bikeImage2, .bikeImage3, .bikeImage4,
+     .houseImage1, .houseImage2, .houseImage3, .houseImage4,
+     .plotImage1, .plotImage2, .plotImage3, .plotImage4
+     {
+        width: 320px;
+        height: 170px;
+     }
+     .priceWishList p{
+        font-size: 20px;
+    }
+    .priceWishList img{
+        width: 18px;
+        height: 16px;
+    }
+    .cardTitle{
+        font-size: 17px;
+        margin-top: 3px;
+        width: auto;
+        height: auto;
+    }
+    .cardAddress{
+        font-size: 16px;
+        margin-top: 1px;
+    }
+    .classDays{
+        margin-top: 2px;
+        color:#406367;
+        font-size: 12px;
+    }
+    .cardContent{
+        padding: 5px;
+    }
+
+    .lastSection{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: auto;
+       
+    }
+    .lastSectionImage1{
+        height: 180px;
+        width: 365px;
+    }
+    .lastSectonLine{
+        display: none;
+    }
+    .appComtainer{
+        width: 380px;
+        height: 120px;
+        /* border: 1px solid black;       */
+        gap: 0px;
+    }
+    .appLinks div a img{
+        width: 150px;
+        height: 120px;
+    }
+    .lastSectionText{
+        width: 380px;
+        height: 170px;
+        padding: 20px;
+    }
+    .footer1{
+        display: flex;
+        justify-content: space-between  ;
+        flex-wrap: wrap;
+        padding: 20px 40px;
+        border-top: 1px solid #c7c7c7;
+        height: auto;
+        gap: 20px;
+        font-size: 18px;
+    }
+    .appLinks2{
+        display: none;
+    }
+    .footer2{
+        background-color: #002F34;
+        height: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .footer2 p{
+        font-size: 20px;
+    }
+
+}
